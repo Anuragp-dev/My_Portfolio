@@ -1,0 +1,52 @@
+.protfolio{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 70vh;
+}
+
+/* heading */
+
+.protfolio span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -2rem;
+}
+
+.protfolio span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* slider */
+
+.protfolio .swiper {
+    overflow: visible!important;
+}
+
+.protfolio-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.protfolio-slider .swiper-slide {
+    width: 20rem;
+    
+}
+
+.protfolio img {
+    width: 19rem;
+    height: 13rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
+
+.protfolio .swiper-pagination-bullet-active{
+    background: var(--orange);
+
+
+}
+
