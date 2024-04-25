@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 
+// card 
 const Card = ({emoji, heading, detail }) => {
   return (
     <div className='card'>
