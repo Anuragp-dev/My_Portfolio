@@ -2,7 +2,7 @@ import React from 'react';
 import './FloatingDiv.css'
 
 
-
+//folding div
 
 
 const FloatingDiv = ({image , text1 ,text2}) => {
